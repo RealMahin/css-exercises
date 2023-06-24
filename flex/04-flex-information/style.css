@@ -15,18 +15,22 @@ img {
   margin-bottom: 32px;
 }
 
-.photos {
+.container {
   display: flex;
   justify-content: center;
   gap: 52px;
 }
 
 .text {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
   width: 200px;
 }
+
+.barberry, .chili, .pepper, .saffron {
+  display: flex;
+  justify-content: center;
+}
+
 
 /* do not edit this footer */
 .footer {
