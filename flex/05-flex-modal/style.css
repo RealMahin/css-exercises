@@ -58,10 +58,12 @@ body {
 }
 
 .text {
-  flex-shrink: 1;
+  flex: auto;
+  flex-wrap: wrap;
 }
 
 .text-container {
+  flex-shrink: 2;
 }
 
 .close-button {
