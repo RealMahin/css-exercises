@@ -22,13 +22,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
   display: flex;
-}
-
-.modal-container {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-evenly;
-  align-items: center;
+  padding: 18px;
 }
 
 .icon {
@@ -44,26 +38,14 @@ body {
   justify-content: center;
 }
 
-.icon-container {
-  margin: 12px;
-}
-
 .header {
   align-self: flex-start;
   gap: 12px;
 }
 
-.header-container {
-  align-self: flex-start;
-}
-
 .text {
   flex: auto;
-  flex-wrap: wrap;
-}
-
-.text-container {
-  flex-shrink: 2;
+  text-align: left;
 }
 
 .close-button {
@@ -79,11 +61,6 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-}
-
-.close-button-container {
-  order: -1;
-  align-self: flex-end;
 }
 
 button {
@@ -102,6 +79,34 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modal-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-container {
+  flex: auto;
+}
+
+.close-header-container {
+  display: flex;
+}
+
+.header-container {
+  flex: auto;
+}
+
+.close-button-container {
+  flex: auto;
+}
+
+.text-container {
+  align-self: flex-start;
+  margin: 8px;
 }
 
 .double-button-container {
