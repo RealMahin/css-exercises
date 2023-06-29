@@ -22,7 +22,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
   display: flex;
-  padding: 18px;
+  padding: 16px;
 }
 
 .icon {
@@ -44,8 +44,8 @@ body {
 }
 
 .text {
-  flex: auto;
   text-align: left;
+  align-self: flex-start;
 }
 
 .close-button {
@@ -84,32 +84,35 @@ button.cancel {
 .modal-container {
   display: flex;
   flex-flow: column;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: space-between;
+  gap: 4px;
 }
 
 .icon-container {
   flex: auto;
+  align-self: flex-start;
+  margin-right: 16px;
 }
 
 .close-header-container {
   display: flex;
+  flex-flow: row;
+  align-items: center;
+  flex: 1 0 auto;
 }
 
 .header-container {
   flex: auto;
 }
 
-.close-button-container {
-  flex: auto;
-}
-
 .text-container {
   align-self: flex-start;
-  margin: 8px;
+  flex: 0 1 auto;
 }
 
 .double-button-container {
   align-self: flex-start;
-  flex-shrink: 0;
+  flex: 1 0 auto;
+  margin-top: 12px;
 }
