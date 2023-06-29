@@ -68,11 +68,15 @@ input {
 .left-links {
   display: flex;
   flex-flow: row;
+  gap: 16px;
+  margin-left: -16px;
 }
 
 .right-links {
   display: flex;
   flex-flow: row;
+  margin-right: 18px;
+  gap: 16px;
 }
 
 ul {
