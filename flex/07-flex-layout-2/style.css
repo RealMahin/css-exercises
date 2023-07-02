@@ -25,25 +25,31 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  flex: 1 0 auto;
+  display: flex;
+  flex: 0 0 auto;
   padding: 16px;
 }
 
 .sidebar-card-container {
   order: 2;
   display: flex;
-  flex: 1 0 auto;
+  flex: 1 1 auto;
 }
 
 .card-container {
   padding: 32px;
-  flex: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
 }
 
 .card {
+  margin: 16px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
+  padding: 16px;
+  flex: 1 0 350px;
 }
 
 .footer {
